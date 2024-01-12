@@ -2,6 +2,8 @@
 
 namespace Ewwe\FilamentRevisionsPlugin;
 
+use Ewwe\FilamentRevisionsPlugin\Commands\FilamentRevisionsPluginCommand;
+use Ewwe\FilamentRevisionsPlugin\Testing\TestsFilamentRevisionsPlugin;
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
 use Filament\Support\Assets\Css;
@@ -13,8 +15,6 @@ use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Ewwe\FilamentRevisionsPlugin\Commands\FilamentRevisionsPluginCommand;
-use Ewwe\FilamentRevisionsPlugin\Testing\TestsFilamentRevisionsPlugin;
 
 class FilamentRevisionsPluginServiceProvider extends PackageServiceProvider
 {
