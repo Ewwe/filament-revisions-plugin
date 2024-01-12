@@ -19,7 +19,8 @@ class Revision extends Model
         'data' => 'json',
     ];
 
-    public function user() {
+    public function user()
+    {
         return $this->belongsTo(User::class);
     }
 }
