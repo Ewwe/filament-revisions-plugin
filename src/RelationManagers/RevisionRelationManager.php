@@ -24,7 +24,7 @@ class RevisionRelationManager extends RelationManager
     {
         $columns = [];
         foreach ($this->ownerRecord->getFillable() as $item) {
-            if( isset( $this->ownerRecord?->translatable) ) {
+            if (isset($this->ownerRecord?->translatable)) {
 
             }
         }
