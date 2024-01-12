@@ -4,7 +4,7 @@ namespace Ewwe\FilamentRevisionsPlugin\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentRevisionsPluginCommand extends Command
 {
     public $signature = 'skeleton';
 

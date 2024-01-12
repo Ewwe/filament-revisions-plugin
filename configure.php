@@ -141,7 +141,7 @@ foreach ($files as $file) {
         str_contains($file, determineSeparator('src/SkeletonTheme.php')) => rename($file, determineSeparator('./src/' . $className . (str_ends_with($className, 'Theme') ? '.php' : 'Theme.php'))),
         str_contains($file, determineSeparator('src/SkeletonPlugin.php')) => rename($file, determineSeparator('./src/' . $className . 'Plugin.php')),
         str_contains($file, determineSeparator('src/Facades/Skeleton.php')) => rename($file, determineSeparator('./src/Facades/' . $className . '.php')),
-        str_contains($file, determineSeparator('src/Commands/SkeletonCommand.php')) => rename($file, determineSeparator('./src/Commands/' . $className . 'Command.php')),
+        str_contains($file, determineSeparator('src/Commands/FilamentRevisionsPluginCommand.php')) => rename($file, determineSeparator('./src/Commands/' . $className . 'Command.php')),
         str_contains($file, determineSeparator('src/Testing/TestsSkeleton.php')) => rename($file, determineSeparator('./src/Testing/Tests' . $className . '.php')),
         str_contains($file, determineSeparator('database/migrations/create_skeleton_table.php.stub')) => rename($file, determineSeparator('./database/migrations/create_' . titleSnake($packageSlugWithoutPrefix) . '_table.php.stub')),
         str_contains($file, determineSeparator('config/skeleton.php')) => rename($file, determineSeparator('./config/' . $packageSlugWithoutPrefix . '.php')),
