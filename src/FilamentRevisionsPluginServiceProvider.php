@@ -65,11 +65,11 @@ class FilamentRevisionsPluginServiceProvider extends PackageServiceProvider
     public function packageBooted(): void
     {
         // Asset Registration
-        FilamentAsset::register(
+        /*FilamentAsset::register(
             $this->getAssets(),
             $this->getAssetPackageName()
         );
-
+*/
         FilamentAsset::registerScriptData(
             $this->getScriptData(),
             $this->getAssetPackageName()
