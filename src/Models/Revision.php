@@ -11,6 +11,7 @@ class Revision extends Model
         'model_id',
         'data',
         'user_id',
+        'type',
     ];
 
     protected $casts = [
