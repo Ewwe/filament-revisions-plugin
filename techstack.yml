@@ -2,7 +2,7 @@ repo_name: Ewwe/filament-revisions-plugin
 report_id: 50a75ddcd3d4565c816218124586251f
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-12T16:10:25+00:00'
+timestamp: '2024-02-29T18:43:12+00:00'
 requested_by: Ewwe
 provider: github
 branch: main
@@ -114,7 +114,7 @@ tools:
   last_updated_by: Ondřej Láznička
   last_updated_on: 2024-01-12 16:04:21.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 2.7.1
   license: MIT
